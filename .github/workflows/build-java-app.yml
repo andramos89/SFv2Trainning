@@ -6,6 +6,11 @@ on:
     branches: [ "main" ]
     paths:
       - java-app/**
+  
+  workflow_dispatch:
+    branches: [ "main" ]
+    paths:
+      - java-app/**
   pull_request:
     branches: [ "main" ]
 
